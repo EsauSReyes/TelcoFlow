@@ -1,23 +1,7 @@
 {
-  "order_id": "TELCO-55123",
-  "order_status": "PENDING_INSTALLATION",
-  "customer_info": {
-    "name": "Salvador Mendoza",
-    "email": "chava.mendoza@example.com",
-    "phone": "4433123456"
-  },
-  "service_address": {
-    "street_address": "Avenida Acueducto 1050",
-    "postal_code": "58260",
-    "city": "Morelia"
-  },
-  "subscription_plan": {
-    "plan_id": "FIBER-500",
-    "plan_name": "Internet Simétrico 500 Mbps",
-    "price": 549.00
-  },
-  "installation_schedule": {
-    "date": "2026-06-08",
-    "time_slot": "09:00 - 13:00"
-  }
+  "customer_name": "Salvador Mendoza",
+  "postal_code": "58260",
+  "plan_id": "FIBER-500",
+  "installation_date": "2026-06-08",
+  "installation_time": "09:00 - 13:00"
 }
