@@ -1,50 +1,23 @@
 {
-  "order_id": "TELCO-2026-98431",
-  "created_at": "2026-06-04T21:00:00Z",
+  "order_id": "TELCO-55123",
   "order_status": "PENDING_INSTALLATION",
   "customer_info": {
-    "first_name": "Salvador",
-    "last_name": "Mendoza",
+    "name": "Salvador Mendoza",
     "email": "chava.mendoza@example.com",
-    "phone_number": "+524433123456",
-    "customer_type": "RESIDENTIAL"
+    "phone": "4433123456"
   },
   "service_address": {
-    "street": "Avenida Acueducto 1050",
-    "neighborhood": "Chapultepec Norte",
-    "city": "Morelia",
-    "state": "Michoacán",
+    "street_address": "Avenida Acueducto 1050",
     "postal_code": "58260",
-    "country": "MX",
-    "coverage_validated": true,
-    "infrastructure_details": {
-      "technology_type": "FTTH",
-      "nearest_splitter_id": "SPL-MOR-CH-042"
-    }
+    "city": "Morelia"
   },
   "subscription_plan": {
-    "plan_id": "FIBER-SYM-500",
+    "plan_id": "FIBER-500",
     "plan_name": "Internet Simétrico 500 Mbps",
-    "service_type": "DATA",
-    "monthly_price": 549.00,
-    "currency": "MXN",
-    "equipment_included": [
-      {
-        "device_type": "ONT_MODEM",
-        "model_suggested": "Huawei-HG8245H"
-      }
-    ]
+    "price": 549.00
   },
   "installation_schedule": {
-    "appointment_id": "APP-2026-0608A",
-    "scheduled_date": "2026-06-08",
-    "time_slot": "09:00 - 13:00",
-    "assigned_technical_crew": "CREW-MORELIA-05",
-    "special_instructions": "Entregar ONT con puerto bridge habilitado. Confirmar llamada 30 minutos antes de llegar."
-  },
-  "billing_account": {
-    "billing_status": "PENDING_FIRST_INVOICE",
-    "payment_method": "CREDIT_CARD",
-    "tokenized_card": "tok_visa_123456789XYZ"
+    "date": "2026-06-08",
+    "time_slot": "09:00 - 13:00"
   }
 }
